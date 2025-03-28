@@ -35,7 +35,7 @@ def extract_world_bank_data(indicator_id):
     params = {
         "format": "json",
         "per_page": 1000,
-        "date": "2010:2023"
+        "date": "2012:2025"
     }
     all_data = []
     page = 1

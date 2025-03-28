@@ -21,7 +21,7 @@ echo "========================================================"
 echo "========================================================"
 echo "STEP 1: Extracting World Bank data"
 echo "========================================================"
-python world_bank_extractor.py
+python worldbank_ingestion.py
 if [ $? -ne 0 ]; then
     echo "❌ Data extraction failed. Exiting."
     exit 1
