@@ -118,11 +118,27 @@ After running the pipeline, you can analyze the data using BigQuery or connect t
 - `top_countries_for_grads_view`: Shows the top 30 countries ranked by opportunity index
 - `country_trends_view`: Analyzes trends over time for key countries
 
+## Visualizations
+(link: https://lookerstudio.google.com/s/q7wIPzfymfY)
+
+Here's the visualization result by using the `country_comparison_view` view table:
+![Global_Career_Opportunity_Dashboard_001](https://github.com/user-attachments/assets/904ad4eb-37bb-4e02-b8bb-193f9946177c)
+
+Key Visualizations
+
+*Opportunity Index Map (2023)* - A global choropleth map displaying the opportunity index across countries, with darker blue indicating higher opportunity scores.
+
+*Top 10 Ease of Business Rank (2019)* - A horizontal bar chart showcasing countries with the most business-friendly regulatory environments, led by New Zealand, Singapore, and Hong Kong SAR.
+
+*Ease of Business Rank vs. Employment Rate (2019)* - A scatter plot revealing the relationship between regulatory environment and employment levels, helping identify countries that balance business-friendly policies with strong employment.
+
+*Top 10 Employment Ratio (2023)* - A treemap highlighting countries with the highest percentage of working-age population in employment, with Qatar leading at 87.44%.
+
+
 ## Future Enhancements
 
-With the current state of the project, i am currently working for further improvements, including:
-- Add scheduling via Cloud Composer or Cloud Scheduler
-- Create interactive web dashboard for exploration
+With the current state of the project, I am currently working for further improvements, including:
+- Improve dashboard visualization of this project hence more insights can be presented
 
 ## Contributing
 
